@@ -1,7 +1,7 @@
 #container{
     display: grid;
     grid-template-columns: 1.5fr 3fr 1fr 3fr 1.5fr;
-    grid-template-rows: 5vh 12.5vh 5vh 25vh 5vh 25vh 5vh 12.5vh 5vh;
+    grid-template-rows: 2.5vh 10vh 2.50vh 20vh 2.50vh 20vh 2.50vh 20vh 2.50vh 10vh;
 }
 
 #container .titulo{
@@ -12,46 +12,60 @@
 }
 
 #container .pie{
-    grid-row: 8/9;
+    grid-row: 10/11;
     grid-column: 2/5;
     text-align: center;
     background-color: lightgreen;
+
 }
 
 #container .imagen1{
     grid-row: 6/7;
     grid-column: 4/5;
-    border: 0px solid orangered;
     
 }
 
-#container .imagen1 img{
-    height: 100%;
-    width: 90%
- 
-}
 
 #container .imagen2{
     grid-row: 4/5;
-    grid-column: 2/3;
+    grid-column: 4/5;
    
 
 }
-
+#container .imagen3{
+    grid-row: 8/9;
+    grid-column: 4/5;
+}
 
 #container .text1{
     grid-row:6/7;
     grid-column: 2/3;
     background-color: rgb(41, 197, 111);
+
 }
 
 #container .text2{
     grid-row: 4/5;
-    grid-column: 4/5;
+    grid-column: 2/3;
+    background-color: rgb(41, 197, 111);
+}
+
+#container .text3{
+    grid-row: 8/9;
+    grid-column: 2/3;
     background-color: rgb(41, 197, 111);
 }
 
 img{
-    width: 70%;
-    height: 100%;
+    width: 40%;
+    height: 90%;
+    border: 5px solid rgba(62, 216, 144, 0.452);
+}
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+#container .pie p{
+    margin: 0%; 
+    margin-top: 2.5%;
 }
