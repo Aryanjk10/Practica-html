@@ -1,0 +1,15 @@
+ .titulo0{
+ text-align: center;
+    background-color: rgb(95, 192, 236);
+}
+
+.text0{
+    background-color: rgb(188, 255, 255);
+    text-align: center;
+    border: 1px solid blueviolet;
+}
+
+.imagen{
+    text-align: center;
+    height: 10em;
+}
